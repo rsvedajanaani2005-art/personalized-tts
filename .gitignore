@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+
+# Datasets, recordings, transcripts, and generated audio
+data/
+dataset/
+datasets/
+audio/
+recordings/
+*.wav
+*.flac
+*.mp3
+*.ogg
+*.m4a
+metadata*.csv
+transcripts*.txt
+
+# Model weights and training outputs
+*.ckpt
+*.pth
+*.pt
+*.onnx
+checkpoints/
+results/
+outputs/
+runs/
+lightning_logs/
+
+# Secrets and local config
+.env.*
+kaggle.json

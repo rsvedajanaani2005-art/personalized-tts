@@ -1,0 +1,11 @@
+# Main dependencies used by the notebooks.
+# The notebooks also install dependencies inline; exact versions may need pinning
+# to reproduce a specific Kaggle run.
+speechbrain
+soundfile
+tgt
+Unidecode
+torch
+torchaudio
+pandas
+PyYAML
